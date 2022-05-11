@@ -22,12 +22,11 @@ public class Third_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
-
         blinding();
 
-// apps
-        String swi = getIntent().getStringExtra("n1");
-        web_view.loadUrl(swi);
+    // apps
+            String swi = getIntent().getStringExtra("n1");
+            web_view.loadUrl(swi);
 
 
 //        game

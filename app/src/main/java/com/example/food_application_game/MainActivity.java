@@ -69,8 +69,11 @@ public class MainActivity extends AppCompatActivity {
         Uber_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent = new Intent(MainActivity.this, Third_Activity.class);
+
                 intent.putExtra("n1","https://www.ubereats.com/");
+
                 startActivity(intent);
             }
         });
